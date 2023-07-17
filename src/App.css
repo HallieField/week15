@@ -1,0 +1,129 @@
+.container {
+  background-color: lightslategray;
+}
+
+.pokedex-container {
+  background-color: red;
+  height: 800px;
+  width: 600px;
+  border-radius: 1rem;
+  border: 2px solid;
+  -webkit-box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+  box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+}
+
+.pokemon-container {
+  background-color: rgb(1, 102, 6);
+  -webkit-box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+  box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+  height: 350px;
+  width: 450px;
+  margin-left: 1em;
+  border: 1px solid;
+  border-radius: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.pokemon-container-background {
+  height: 375px;
+  width: 475px;
+  background-color: antiquewhite;
+  border: 1px solid;
+  border-radius: .75rem;
+  margin-left: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust the margin-top value as desired */
+.pokemon-container {
+  margin-top: 1em;
+}
+
+
+.search-container {
+  margin-top: 1em;
+  margin-left: 5em;
+}
+
+.search-button {
+  border-radius: 0.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  background-color: rgb(68, 58, 58);
+  color: blanchedalmond;
+}
+
+.image-container {
+  height: 350px;
+  background-color: aquamarine;
+  border: 1px solid;
+  -webkit-box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+  box-shadow: inset 4px 4px 18px 3px rgba(0, 0, 0, 0.41);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pokemon-image {
+  padding: 2rem;
+}
+
+.detail-wrapper {
+  margin-left: 2rem;
+}
+
+.remove-button {
+  border-radius: 0.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(68, 58, 58);
+  color: blanchedalmond;
+}
+
+.blue-circles {
+  width: 54px;
+  height: 54px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.circles {
+  width: 24px;
+  height: 24px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: rgb(146, 5, 5);
+}
+
+.space-holder-buttons-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.space-holder-buttons {
+  height: 10px;
+  width: 40px;
+  border-radius: 0.75rem;
+  background-color: rgb(68, 58, 58);
+  margin: 0 0.25rem;
+}
